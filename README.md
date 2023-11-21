@@ -3,6 +3,7 @@
 In Angular, **`directives`** are a powerful way to extend the behavior of HTML elements. You can create custom directives to encapsulate and reuse specific behaviors across your application. Here's a step-by-step guide on how to create a custom directive in Angular:
 
 1. **`Create a New Directive`**:
+   
 Start by generating a new directive using the Angular CLI or create the files manually. Let's use the CLI for simplicity:
 
 ```bash
@@ -12,6 +13,7 @@ ng generate directive highlight
 This command will create a new file named highlight.directive.ts in the src/app directory.
 
 2. **`Implement the Directive Logic`**:
+
 Open the **`highlight.directive.ts`** file, and you'll see something like this:
 
 ```typescript
@@ -30,6 +32,7 @@ export class HighlightDirective {
 You can add your custom logic inside the **`HighlightDirective`** class.
 
 3. **`Add Behavior to the Directive`**:
+
 Let's say you want the directive to change the background color of the element it's applied to. Update the directive to look like this:
 
 ```typescript
@@ -59,6 +62,7 @@ export class HighlightDirective {
 This directive uses the **`Renderer2`** service to manipulate the DOM and responds to mouse enter and leave events to highlight and unhighlight the element.
 
 4. **`Use the Directive in a Component`**:
+
 Open a component where you want to use the directive (e.g., **`app.component.html`**), and apply the directive to an HTML element:
 
 ```html
@@ -70,6 +74,7 @@ Open a component where you want to use the directive (e.g., **`app.component.htm
 The **`appHighlight`** attribute is the selector you defined for your custom directive.
 
 5. **`Include the Directive in Module`**:
+
 Make sure to include the directive in the **`declarations`** array of your module (e.g., **`app.module.ts`**):
 
 ```typescript
