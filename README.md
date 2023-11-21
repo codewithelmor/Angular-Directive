@@ -1,5 +1,11 @@
 # AngularDirective
 
+# Screenshot
+
+![2023-11-21 20-01-43](https://github.com/codewithelmor/Angular-Directive/assets/44918452/a67477e8-b72d-4b68-b7cf-2ebc13318561)
+
+# Commands
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
 
 ## Development server
