@@ -1,4 +1,4 @@
-# AngularDirective
+# Directive
 
 In Angular, **`directives`** are a powerful way to extend the behavior of HTML elements. You can create custom directives to encapsulate and reuse specific behaviors across your application. Here's a step-by-step guide on how to create a custom directive in Angular:
 
